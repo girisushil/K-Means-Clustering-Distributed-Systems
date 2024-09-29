@@ -1,0 +1,41 @@
+syntax = "proto3";
+package backup_protocol;
+import "google/protobuf/empty.proto";
+
+service Master {
+    rpc NotifyMaster(FormatFile) returns (google.protobuf.Empty);
+}
+
+service Mapper{
+    rpc StartMapper(NotifyMapper) returns (google.protobuf.Empty);
+}
+
+service Reducer{
+    rpc StartReducer(NotifyReducer) returns (google.protobuf.Empty);
+}
+
+message NotifyMapper {
+    int32 my_index = 1;
+    int32 num_reducer = 2;
+    repeated string input_paths = 3;
+    int32 k=4;
+    repeated float xcoord=5;
+    repeated float ycoord=6;
+}
+
+message NotifyReducer {
+    int32 my_index = 1;
+    int32 num_mapper = 2;
+    repeated string intermediate_paths =3;
+
+}
+
+message FormatFile {
+    Status response=1;
+    repeated string outfinal_paths=2;
+}
+
+enum Status {
+    MAPPER = 0;
+    REDUCER = 1;
+}

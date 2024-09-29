@@ -1,0 +1,20 @@
+Currently running iterations number: 1
+Master Started
+Invoking mapper at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker9/mapper/
+Invoking mapper at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker5/mapper/
+Invoking mapper at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker2/mapper/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker8/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker9/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker4/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker10/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker6/reducer/
+Currently running iterations number: 2
+Master Started
+Invoking mapper at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker2/mapper/
+Invoking mapper at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker6/mapper/
+Invoking mapper at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker3/mapper/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker10/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker4/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker2/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker6/reducer/
+Invoking reducer at location: /Users/sushilhome/Desktop/DSCD_Assignment@3_fin/src/../workers/worker1/reducer/
